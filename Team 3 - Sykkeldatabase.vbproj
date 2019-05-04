@@ -79,14 +79,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\lagret versjon\Form1.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
-      <Link>Form1.vb</Link>
     </Compile>
-    <Compile Include="..\lagret versjon\Form1.Designer.vb">
+    <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
-      <Link>Form1.Designer.vb</Link>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -105,9 +103,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\lagret versjon\Form1.resx">
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-      <Link>Form1.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
